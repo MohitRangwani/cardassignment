@@ -1,0 +1,11 @@
+
+<div class ="container-fluid">
+    <div class="row">
+        <div class ="col-sm-6">
+            <app-add-detail (detailsCreated)="onDetailsAdd($event)"></app-add-detail>
+        </div>
+        <div class ="col-sm-6">
+            <app-display-card [detailsDisplay]=detailsEmit></app-display-card>
+        </div>
+    </div>
+</div>
